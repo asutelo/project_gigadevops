@@ -32,5 +32,5 @@ if [ $1 -eq 0 ]; then systemctl disable --now cache-api.service || true; fi
 /lib/systemd/system/cache-api.service
 
 %changelog
-* Tue Oct 27 2026 Your Name <you@example.com> - 1.0.0-1
+* Tue Oct 27 2026 Your Name dmutruiah@gmail.com - 1.0.0-1
 - Initial package

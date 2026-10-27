@@ -3,5 +3,5 @@ Version: 1.0.0
 Section: net
 Priority: optional
 Architecture: amd64
-Maintainer: Your Name <you@example.com>
+Maintainer: Your Name dmutruiah@gmail.com
 Description: Backend API (Go) for test app
