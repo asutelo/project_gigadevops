@@ -1,0 +1,7 @@
+Package: backend-api
+Version: 1.0.0
+Section: net
+Priority: optional
+Architecture: amd64
+Maintainer: Your Name <you@example.com>
+Description: Backend API (Go) for test app

@@ -1,0 +1,12 @@
+[Unit]
+Description=Backend API
+After=network.target postgresql.service
+
+[Service]
+ExecStart=/usr/local/bin/backend-api
+Environment=CONFIG_PATH=/etc/backend-api/config.yaml
+Environment=DB_NAME=test
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
